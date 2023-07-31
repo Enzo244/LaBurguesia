@@ -1,12 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 body{
     background-color: #ffffff;
     
+}
+
+nav {
+	background-image: url("Black Sky Galaxy Stars Desktop Wallpaper.svg");
+	background-color: #000;
+	width: 100%;
+	height: 2rem;
 }
 nav ul{
     display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
     justify-content: space-between;
+	list-style: none;
+
+}
+nav ul :hover{
+	background-color: red;
+	border-radius: 5rem;
+}
+
+
+nav a{
+	color: #fff;
+	text-decoration: none;
 }
 
 .card-container{
@@ -15,6 +39,21 @@ nav ul{
         justify-content: center;
         flex-direction: row;
         justify-content: space-between;
+}
+
+.card-locales{
+	display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		flex-direction: row;
+		justify-content: space-between;
+}
+.card-locales img{
+	width: 300px;
+	height: auto;
+}
+.card-locales h4{
+	text-align: center;
 }
 
 footer .redes-sociales {

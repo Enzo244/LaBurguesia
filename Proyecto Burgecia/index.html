@@ -15,17 +15,17 @@
   <div class="col-xs-12 text-center menu-1 menu-wrap">
       <nav>
         <ul>
-          <li>Home</li>
-          <li>Nosotros</li>
-          <li>Menu</li>
-          <li>Promociones</li>
-          <li>Eventos y locales</li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#eventos">Eventos</a></li>
+          <li><a href="#locales">Locales</a></li>
         </ul>
 
       </nav>
  </div>
 
- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+ <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" >
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="imagen.jpg" class="d-block w-100 " style="width: 100px; height: 400px;" alt="...">
@@ -48,7 +48,7 @@
   
 </div>
 
-<div class="nosotros">
+<div id="nosotros" class="nosotros">
   <h3>Historia</h3>
   <div>
       <p> Su historia nos inspira, dado que en el 2016 se animaron y apostaron por un negocio nuevo en la provincia, la 
@@ -59,7 +59,7 @@
   </div>
 </div>
 
-<div class="carta">
+<div id="menu" class="carta">
   <H3>HAMBURGUESA</H3>
   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit id architecto soluta voluptas unde reiciendis! Recusandae sint, vel nam voluptas quod error est. Architecto nostrum vitae corrupti explicabo. Unde, earum!</p>
  <div class="card-container"> 
@@ -98,18 +98,30 @@
 
 </div>
 
-<div class="locales">
+<div id="locales" class="locales">
 
   <h3>LOCALES</h3>
-    <div>
-    <p>Paseo San Juan</p>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.1383065218865!2d-68.54323182486394!3d-31.520361101284585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x968141cf1453aeb7%3A0xfb05c1d6e4de3c45!2sHiper%20Libertad!5e0!3m2!1ses-419!2sar!4v1690499679504!5m2!1ses-419!2sar" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
-    <p>Espacio San Juan</p>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3400.4248906952753!2d-68.57288559999999!3d-31.539952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9681418d22d3d571%3A0x852c324582abc603!2sLa%20Burguesia%20Espacio%20Shopping!5e0!3m2!1ses-419!2sar!4v1690499434021!5m2!1ses-419!2sar" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-    <p>Rivadavia</p>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3400.4587699056206!2d-68.5906897!3d-31.539021899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x968140e21c8b0251%3A0xa0e353a625b58ef4!2sLa%20Burguesia%20Rivadavia!5e0!3m2!1ses-419!2sar!4v1690499584108!5m2!1ses-419!2sar" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-  </div>
+    <div class="card-locales">
+      <div class="cartasIndividuales">
+        <h4>Paseo San Juan</h4>
+        <a href="https://goo.gl/maps/iNiLNcGSox1i5Est9">
+          <img src="cardLocales.jpg" alt="">
+        </a>
+      </div>
+      <div class="cartasIndividuales">
+        <h4>Espacio San Juan</h4>
+        <a href="https://goo.gl/maps/A3scbHDv9Kez6m5e9">
+          <img src="cardLocales.jpg" alt="">
+        </a>
+      </div>
+      <div class="cartasIndividuales">
+        <h4>Rivadavia</h4>
+        <a href="https://goo.gl/maps/cUGMB5kauVvaKwsQ9">
+          <img src="cardLocales.jpg" alt="">
+        </a>
+      </div>
+    </div>
+  
 </div>
 
 <footer class="contenedor">
